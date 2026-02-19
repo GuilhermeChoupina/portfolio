@@ -13,11 +13,11 @@
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="#"><i class="fa-solid fa-house" title="Home"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brain" title="Skills"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-user-graduate" title="Formação"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-laptop-code" title="Projetos"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-moon" title="Modo noturno"></i></a></li>
+                <li><a href="#detalhe" class="link"><i class="fa-solid fa-house" title="Home"></i></a></li>
+                <li><a href="#skills" class="link"><i class="fa-solid fa-brain" title="Skills"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fa-solid fa-user-graduate" title="Formação"></i></a></li>
+                <li><a href="#projetos" class="link"><i class="fa-solid fa-laptop-code" title="Projetos"></i></a></li>
+                <li><a href="#" id="botao-tema"><i class="fa-solid fa-moon" title="Modo noturno"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -39,13 +39,13 @@
                 <div class="video-container">
                     <h1>video de Apresentação</h1>
                 </div>
-            </article> <!--fim-->
+            </article>
 
             <article id="skills">
                 <h2><i class="fa-solid fa-brain"></i> Minhas habilidades</h2>
                 <div id="skill-container">
 
-                    <div class="item">
+                    <div class="item"> <!--skill 01-->
                         <div class="info">
                             <span class="nome">
                                 HTML
@@ -57,9 +57,9 @@
                         <div class="barra">
                             <div class="progresso" style="width: 60%;"></div>
                         </div>
-                    </div>
+                    </div> <!-- final skill 01-->
 
-                    <div class="item">
+                    <div class="item"> <!--skill 02-->
                         <div class="info">
                             <span class="nome">
                                 CSS
@@ -71,9 +71,9 @@
                         <div class="barra">
                             <div class="progresso" style="width: 50%;"></div>
                         </div>
-                    </div>
+                    </div> <!-- final skill 02-->
 
-                    <div class="item">
+                    <div class="item"> <!--skill 02-->
                         <div class="info">
                             <span class="nome">
                                 Comunicação
@@ -85,9 +85,9 @@
                         <div class="barra">
                             <div class="progresso" style="width: 90%;"></div>
                         </div>
-                    </div>
+                    </div> <!-- final skill 02-->
 
-                    <div class="item">
+                    <div class="item"> <!--skill 03-->
                         <div class="info">
                             <span class="nome">
                                 Adaptalidade
@@ -99,9 +99,9 @@
                         <div class="barra">
                             <div class="progresso" style="width: 90%;"></div>
                         </div>
-                    </div>
-
-                    <div class="item">
+                    </div> <!-- final skill 03-->
+ 
+                    <div class="item"> <!--skill 04-->
                         <div class="info">
                             <span class="nome">
                                 Trabalho em equipe 
@@ -113,33 +113,32 @@
                         <div class="barra">
                             <div class="progresso" style="width: 95%;"></div>
                         </div>
-                    </div>
-
+                    </div> <!-- final skill 04-->
 
                 </div>
-            </article> <!--fim-->
+            </article> 
 
             <article id="formacao">
                 <h2><i class="fa-solid fa-user-graduate"></i> Formação</h2>
                 <div id="formacao-container">
 
-                    <div class="curso">
+                    <div class="curso"> <!--CURSO 01-->
                         <p class="periodo">2019 - 2023</p>
                         <h3 class="instituicao">Universidade Municiapal de São Caetano do Sul</h3>
                         <p class="titulacao">Bacharelado em Educação Física</p>
-                    </div>
+                    </div> <!--FINAL CURSO 01-->
 
-                    <div class="curso">
+                    <div class="curso"> <!--CURSO 02-->
                         <p class="periodo">2025 - 2026</p>
                         <h3 class="instituicao">Curso em vídeo (Youtube)</h3>
                         <p class="titulacao">Curso de HTML e CSS</p>
-                    </div>
+                    </div> <!--FINAL CURSO 01-->
 
-                    <div class="curso">
+                    <div class="curso"> <!--CURSO 03-->
                         <p class="periodo">2026 - 2028</p>
                         <h3 class="instituicao">Universidade São Judas Tadeu</h3>
                         <p class="titulacao">Tecnólogo em Análise e Desenvolvimento de Sistemas</p>
-                    </div>
+                    </div> <!--FINAL CURSO 01-->
 
 
                 </div>
@@ -147,11 +146,57 @@
 
             <article id="projetos">
                 <h2><i class="fa-solid fa-laptop-code"></i> Projetos</h2>
-            </article> <!--fim-->
+                <div id="projeto-container">
+
+                    <div class="projeto"> <!--PROJETO 01-->
+                        <img src="imagens/watch2.png" alt="projeto-watch" class="foto">
+                        <div class="projeto-info">
+                            <p class="link">Clique <a href="https://guilhermechoupina.github.io/projeto-watch/" target="_blank">aqui</a> para ir ao projeto</p>
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Apple Watch</h3>
+                            <p>Recriei o site da Apple, exclusivamente da página do Apple Watch para melhorar e aprimorar os estudos.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam asperiores nobis alias adipisci maxime consequuntur, omnis tempore quos harum voluptatum explicabo facilis reiciendis earum ad commodi ipsa consectetur! Recusandae, libero?</p>
+                            </details>
+                        </div>
+                    </div> <!--FIM PROJETO 01-->
+
+                    <div class="projeto"> <!--PROJETO 02-->
+                        <img src="imagens/projeto-03-android.jpg" alt="projeto-watch" class="foto">
+                        <div class="projeto-info">
+                            <p class="link">Clique <a href="https://guilhermechoupina.github.io/projeto-android/" target="_blank">aqui</a> para ir ao projeto</p>
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto Android</h3>
+                            <p>Site criado para aprimorar estudos e habilidades referente a imagens adpatadas em diversos tamanhos de tela.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam asperiores nobis alias adipisci maxime consequuntur, omnis tempore quos harum voluptatum explicabo facilis reiciendis earum ad commodi ipsa consectetur! Recusandae, libero?</p>
+                            </details>
+                        </div>
+                    </div> <!--FIM PROJETO 02-->
+
+                    <div class="projeto"> <!--PROJETO 03-->
+                        <img src="imagens/projeto-05-login.jpg" alt="projeto-watch" class="foto">
+                        <div class="projeto-info">
+                            <p class="link">Clique <a href="https://guilhermechoupina.github.io/projeto-login/" target="_blank">aqui</a> para ir ao projeto</p>
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto Login</h3>
+                            <p>Site criado para aprimorar estudos e habilidades referente a login e formulários. </p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam asperiores nobis alias adipisci maxime consequuntur, omnis tempore quos harum voluptatum explicabo facilis reiciendis earum ad commodi ipsa consectetur! Recusandae, libero?</p>
+                            </details>
+                        </div>
+                    </div> <!--FIM PROJETO 03-->
+
+
+                </div>
+            </article> 
         </section>
     </main>
     <footer>
-
+        Portifólio desenvolvido com a ajuda do <a href="https://www.cursoemvideo.com/" target="_blank" rel="nofollow">Curso em Vídeo</a> em 2026.
     </footer>
 
     <script src="scripts/script.js"></script>
